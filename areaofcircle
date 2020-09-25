@@ -1,0 +1,7 @@
+# area-of-circle
+a python program to finding  the  area of circle with user given radius
+
+
+from math import pi
+r=float(input("the radius of circle is :")); 
+print("area of circle with radius "+(str(r))+ " is:" +str(pi*r**2));
